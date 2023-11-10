@@ -5,30 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ensino Fundamental</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Anton & display=swap" rel="stylesheet">
+
 </head>
 <body>
 <main>
-    <div class="Principal">
-        <form action="" method="get" autocomplete="on">
+   <div class="Principal">
+      <form action="" method="get" autocomplete="on">
+         <p>
+             <img src="imagens/logo rosto.png" alt="Rosto">
+         </p>
+      <fieldset>
+          <legend>Prencha os dados</legend>
+        <p>
+         <label for="inome">Nome</label>
+          <input type="text" name="nome" id="inome" placeholder="Primeiro nome" required maxlength= "20"  minlength="8">
+          <p>
+          <p>
+          <label for="idatenascimento">Data de nascimento</label>
+           <input type="date" name="datenascimento" id="idatenascimento" required>
+          </p>
+          <p>
+          <label for="icomeço">Quando deseja começar</label>
+          <input type="date" name="começo" id="icomeço" required>
+          </p>
+      </fieldset>
             <p>
-                <img src="imagens/logo rosto.png" alt="Rosto">
-            </p>
-            <p>
-              <label for="inome">Nome</label>
-              <input type="text" name="nome" id="inome" placeholder="Primeiro nome" required maxlength= "20"  minlength="8">
-            <p>
-            <p>
-              <label for="idatenascimento">Data de nascimento</label>
-              <input type="date" name="datenascimento" id="idatenascimento" required>
-            </p>
-            <p>
-              <label for="icomeço">Quando deseja começar</label>
-              <input type="date" name="começo" id="icomeço" required>
-              </p>
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
             </p>
         </form>
     </div>
