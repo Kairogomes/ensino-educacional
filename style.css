@@ -10,7 +10,7 @@ body {
 img {
     background-color: white;
     max-width: 100%;
-    height:auto;
+    height:60vh;
     border-radius: 25%;
 }
 legend {
@@ -20,8 +20,7 @@ legend {
 }
 fieldset{
     border: 1px solid;
-    margin-right:10vw;
-    margin-left: 10vw;
+    margin-right:25vw;
+    margin-left: 25vw;
     border-radius:25%;
-
 }
